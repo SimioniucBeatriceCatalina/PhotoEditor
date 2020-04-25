@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EditorFoto</title>
+    <link rel="stylesheet" type="text/css" href="1_1083_SIMIONIUC_BEATRICE_CATALINA.css">
+    <style type="text/css">
+
+        canvas {
+            border: 3px solid orange ;
+        
+                
+        }
+label{
+margin-left:8px;
+}
+input{
+margin-left:5px;
+}
+
+
+       
+
+    </style>
+</head>
+<body id="pagina">
+
+    <canvas id="my_canvas" width="560" height="300" ondrop="imagine_trasa(event);" ondragover="imagine_trasa_peste(event);"></canvas>
+    <div class="rand">
+        <button onmousedown ="sound.play() " id="buton_linie" onclick="selecteaza_linie()">Deseneaza Linie</button>
+        <button onmousedown ="sound.play() "id="buton_dreptunghi" onclick="selecteaza_dreptunghi()">Deseneaza Dreptunghi</button>
+        
+
+		
+               <button onmousedown ="sound.play()" id="buton_crop" onclick="crop(event) ">Crop</button>
+    </div>
+    <div class="rand">
+        
+                  <button onmousedown ="sound1.play()" id="buton_salveaza"  onclick="buton_salveaza()" ><a id="link">Salveaza imaginea</a></button>
+                
+    </div>
+
+        <script > var sound=new Audio();
+                  sound.src='Media/sound.mp3';
+                  var sound1=new Audio();
+                   sound1.src='Media/sound1.mp3';
+
+</script>
+    
+      <script src="1_1083_SIMIONIUC_BEATRICE_CATALINA.js"></script>
+</body>
+</body>
+</html> 

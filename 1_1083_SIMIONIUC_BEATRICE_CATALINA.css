@@ -1,0 +1,80 @@
+#buton_linie {
+    width: 100px;
+    height: 100px;
+    background-color:#FFCB60;
+    border-radius: 12px;
+border:2px solid #F4661B;
+-webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+#buton_linie:hover {
+   
+    background-color:#F4661B;
+   color:#FFCB60;
+}
+
+#buton_dreptunghi {
+    width: 100px;
+    height: 100px;
+ background-color:#FFCB60;
+border-radius: 12px;
+border:2px solid #F4661B;
+-webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+
+margin-left:5px;
+}
+
+
+#buton_dreptunghi:hover {
+   
+    background-color:#F4661B;
+   color:#FFCB60;
+}
+
+
+
+
+#buton_salveaza{
+   
+ background-color:#FFCB60;
+border-radius: 50px;
+border:2px solid #F4661B;
+-webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+
+margin-left:20px;
+}
+#buton_salveaza:hover {
+   
+    background-color:#F4661B;
+   color:#FFCB60;
+}
+#buton_crop{
+   width: 50px;
+    height: 50px;
+  background-color:#FFCB60;
+border-radius: 50px;
+border:2px solid #F4661B;
+-webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+
+margin-left:15px;
+
+
+
+}
+#buton_crop:hover {
+   
+    background-color:#F4661B;
+   color:#FFCB60;
+}
+
+
+
+.rand {
+    padding: 20px;
+}
+
+
+body {background-color:#FFCB60;}
